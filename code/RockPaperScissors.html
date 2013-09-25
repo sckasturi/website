@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>Rock, Paper, Scissors</title>
+		<script type="text/javascript" charset="utf-8">
+			var blah = 0;
+			var roundCount = 0;
+			var wins = 0;
+			var ties = 0;
+			var losses = 0;
+			var rounds = prompt('How many rounds (1 to 11)?');
+			var i = 0;
+			var c = 0;
+			//var roundsCheck = rounds.constructor === String;
+			var rock = "          _______" + "\n" + "-------'   ______)" + "\n" + "           (_______)" + "\n" + "           (_______)" + "\n" + "           (______)" + "\n" + "-----.__(_____)" ; 
+			var paper = "       _____" + "\n" + " -----'   ____)____" + "\n" + "                 ______)" + "\n" + "                 _______)" + "\n" + "                _______)" + "\n" + " ----.__________)" ;
+			var scissors = "         ________" + "\n" + "-----'          ____)____" + "\n" + "                      ______)" + "\n" + "            __________)" + "\n" + "                   (____)" + "\n" + "-------._____(___)" ; ;
+			var line = "\n" + "-----------------------" + "\n" + "********************" + "\n" + "********************" + "\n" + "-----------------------" + "\n" ;
+		if (rounds > 11)
+		{
+			alert('1');
+			rounds = Math.floor(Math.random() * (11 - 1 + 1) + 1);
+		}
+/*		else if (roundsCheck==true)
+		{
+			alert('2');
+			rounds = Math.floor(Math.random() * (11 - 1 + 1) + 1);
+		}*/
+		else
+		{
+		}
+		while(roundCount < rounds)
+		{
+			//alert('start');
+			i = prompt('Enter rock, paper, or scissors.');
+			i = i.toUpperCase();
+			c = Math.floor(Math.random() * (3 - 1 + 1) + 1);
+			if (i == 'R' || i == 'ROCK') 
+			{ 
+				i = 1;
+			}
+			else if (i == 'P' || i == 'PAPER')
+			{
+				i = 2;
+			}
+			else if (i == 'S' || i == 'SCISSORS')
+			{
+				i = 3;
+			}
+			else 
+			{
+				i = 0;
+				alert('Oops, you made a typo. Try retrying. Check spelling.');
+			}
+			     if (i == 1 && c == 1)
+			{
+				alert('It was a tie. Try again :/' + '\n' + rock + line + rock);
+				ties = ties + 1;
+			}
+			else if (i == 1 && c == 2)
+			{
+				alert('Ooh, looks like paper covers rock :(' + '\n' + paper + line + rock);
+				losses = losses + 1;
+			}
+			else if (i == 1 && c == 3)
+			{
+				alert('Yay! Rock crushes scissors :)' + '\n' + rock + line + scissors);
+				wins = wins + 1;
+			}
+			else if (i == 2 && c == 2)
+			{
+				alert('It was a tie. Try again :/' + '\n' + paper + line + paper);
+				ties = ties + 1;
+			}
+			else if (i == 2 && c == 1)
+			{
+				alert('Yay! Paper crushes rock :)' + '\n' + paper + line + rock);
+				wins = wins + 1;
+			}
+			else if (i == 2 && c == 3)
+			{
+				alert('Ooh, looks like scissors cuts paper :(' + '\n' + scissors + line + rock);
+				losses = losses + 1;
+			}
+			else if (i == 3 && c == 3)
+			{
+				alert('It was a tie :/' + '\n' + scissors + line + scissors);
+				ties = ties + 1;
+			}
+			else if (i == 3 && c == 1)
+			{
+				alert('Ooh, looks like rock crushes scissors :(' + '\n' + rock + line + scissors);
+				losses = losses + 1;
+			}
+			else if (i == 3 && c == 2)
+			{
+				alert('Yay! Scissors cuts paper :)' + '\n' + scissors + line + paper);
+				wins = wins + 1;
+			}
+			else if (i == 0)
+			{
+				roundCount = roundCount - 1;
+			}
+			else
+			{
+				alert('Woah, this must have glitched!');
+			}
+			roundCount=roundCount+1;
+			alert('The scores are as follows:' + '\n' + 'Wins:     ' + wins + '\n' + 'Ties:      ' + ties + '\n' + 'Losses: ' + losses);
+		}
+	</script>
+	</head>
+	<body>
+	<body>
+</html>
