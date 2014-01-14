@@ -7,6 +7,7 @@
 			var wins = 0;
 			var ties = 0;
 			var losses = 0;
+			alert('FYI. This really sucks, don\'t play it');
 			var rounds = prompt('How many rounds (1 to 11)?');
 			var i = 0;
 			var c = 0;
@@ -30,7 +31,6 @@
 		}
 		while(roundCount < rounds)
 		{
-			alert('FYI. This really sucks, don\'t play it');
 			i = prompt('Enter rock, paper, or scissors.');
 			i = i.toUpperCase();
 			c = Math.floor(Math.random() * (3 - 1 + 1) + 1);
