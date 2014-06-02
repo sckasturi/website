@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/techfilmer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://techfilmer.com
+  * I am techfilmer (https://keybase.io/techfilmer) on keybase.
+  * I have a public key with fingerprint D1A4 D423 8E75 3772 FA2E  1399 FB5F 1022 37AE 870C
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.0"
+        },
+        "key": {
+            "fingerprint": "d1a4d4238e753772fa2e1399fb5f102237ae870c",
+            "host": "keybase.io",
+            "key_id": "FB5F102237AE870C",
+            "uid": "d6ac8f01f8bea1278fa011f676888300",
+            "username": "techfilmer"
+        },
+        "merkle_root": {
+            "ctime": 1401076842,
+            "hash": "c4331f9e0205d70facd1d59d61643299f33d934f26856ecb08492cd93e8425f39e42149d9c05c428d42c61c3664fc3491d46c568636fba44ea5a6fd677ad693a",
+            "seqno": 11833
+        },
+        "service": {
+            "hostname": "techfilmer.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1401077051,
+    "expire_in": 157680000,
+    "prev": "ad58e991e0df198e64439f50ae8d990d93244de70c2177fd0717f4afc977be28",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFlUltsFUUYPi2gUDGpinhFYV9ManOY287sFGtDCUVaiWjTF19OZufSLpzuHvds
+byFHxJgaayw1MbExaiAkmBjEVohtHzQFjUYpQkpCDJcECHLa6kMNQiQ+6GytUeK8
+7Oz83//N933/DN29JFNZ8Ueu2mGHX19ZcWLWz7S++sWGXY4fqT6nbpcj84EOk3QX
+ik7t1Dk7dZ8vijobRGvDSOnsjuLaRUyt063jYhCFFgWyJAucUm0KT5tNELbruBAH
+KZejoCCKIOxp5mLGkBFIQ8y58V0DAUKYCe0xIC1lR1RMbrvVWeDMBcqeNjW6TX/j
+N262+E221rVQUFRIzwBoPF8LiJhnBIDQUEY9z8MApMCijhctJVp2mCDfqeNUsf3s
+zOtcHEULtmUSpCBIAAS2nSCrSRQ7bJskGEPDNUDAVQwYIRVULlcUUoKRdYOx4pgY
+RD2XaukDj3Ak7ZG2LK7BXBMECVdcAlcS5NlEJIUSU0qMxIRDRah0qUcxNb4gRAtX
+UKMoY0JRjoU1UdQvhZEVBz2MS+lv3B1IncpOc/ufvayMOm1XIY6SSEZ5W+tIkkJd
+6jrpK6TYnhHt5xZpcn4QKju3/w4WWuhtiTDgwlpH9xaCWOeCFOHalIBd6T2623IK
+5Xqac6iBMpB7mhKCuXGBnbHiHNhAECFK23kjyJhRgEFmiDCSM+Zr5P3rE1udot1S
+FoP2UCRdsXZKb1Q8ujRTUZm5Y1ll+nIzVSuq/3nOzx9anhlvbB4/s6d7vn7ktY2D
+n5zZt2FzOHziynMrZ347evCem+4jl7/8cf/k13fpc03HbjQ1DN3a2z9fvtQ8/c1X
+f26tGZz96P0dw9OfPlF/ofL6wBrz68uHeg+UV994Za782NEnyZGBhhfHr6x/z3n4
+4mjp7VXTU8sKjbu3zQ2eH9nSNnZtQH0w8/tW01Ia+/ZgVeuWt1qqTk41tCgxt37I
+XJwc61rXduTyqYlnjz14+Pjw/rPDH8b1j99E19/tv98/d9+17zrjth9qJmomju8b
+N827H9o+89THd/7c1p/9pdwzemnd3mDqgXford7qp893TX7/5uwzrS98VpbzPWuW
+juYnt9+7+uSmFS0Npz/fdnXPT38B
+=qxrq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/techfilmer
+
+==================================================================
