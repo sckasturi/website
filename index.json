@@ -1,63 +1,59 @@
 {
     "name": "Srijay C. Kasturi",
-    "username": [
-        "skasturi",
-        "sckasturi",
-        "techfilmer"
-    ],
     "age": 13,
     "home": "Reston, Virginia, USA",
     "projects": {
         "CCTM": {
-            "desc": "The Camera Centering Tripod Mount is  device for centering your camera",
-            "promo video": "https://www.youtube.com/watch?v=9kZKxvEgzWU"
-        },
-        "RPS": {
-            "desc": "My first program ever, Rock Paper Scissors in Python.",
-            "demo": "http://labs.codecademy.com/BbK9/2#:workspace",
-            "code": "https://github.com/sckasturi/misc/blob/master/RPS.py"
-        },
-        "STRIDE": {
-            "desc": "STRIDE is a device that alerts visually impaired users of objects they may not see in close proximity.",
-            "code": "https://github.com/stepwithstride"
-        },
-        "Polr": {
-            "desc": "Polr is a url shortener by my friend Cydrobolt. I maintain python-polr, a library for shortening it.",
-            "pypi": "https://pypi.python.org/pypi/polr"
-        },
-        "status": {
-            "desc": "status is a small Python applet the uses the Flask framework to create a webpage showing the status of your server.",
-            "demo": "http://cadoth.net:4242",
-            "code": "https://github.com/sckasturi/status"
+            "meaning": "Camera Centering Tripod Mount",
+            "description": "A device for centering your camera",
+            "video": "https://www.youtube.com/watch?v=9kZKxvEgzWU"
         },
         "Nymeria.js": {
-            "desc": "Nymeria.js is a simple irc bot written in node.js using the node-irc framework.",
-            "code": "https://github.com/sckasturi/nymeria.js"
+            "description": "A simple IRC bot written in node.js using the node-irc framework",
+            "url": "https://github.com/sckasturi/nymeria.js"
         },
-        "others": [
+        "python-polr": {
+            "description": "Python library for Polr, a URL shortener by my friend Cydrobolt",
+            "url": "https://pypi.python.org/pypi/polr"
+        },
+        "RPS": {
+            "meaning": "Rock-paper-scissors",
+            "description": "Rock-paper-scissors in Python, my first program ever",
+            "url": "https://github.com/sckasturi/misc/blob/master/RPS.py",
+            "preview": "http://labs.codecademy.com/BbK9/2#:workspace"
+        },
+        "status": {
+            "description": "A small Python applet that uses the Flask framework to create a web page showing the status of your server",
+            "url": "https://github.com/sckasturi/status",
+            "preview": "http://cadoth.net:4242"
+        },
+        "STRIDE": {
+            "description": "A device that alerts visually impaired users of objects in close proximity that they may not see",
+            "url": "https://github.com/stepwithstride"
+        },
+        "_misc": [
             "IdeaVine",
             "StarLight",
-            "Supybot",
-            "Notifico",
-            "jenni",
-            "lykos",
+            "saltlake"
+        ],
+        "_forks": [
             "cslbot",
-            "saltlake",
+            "jenni",
+            "Limnoria",
+            "lykos",
+            "Notifico",
             "polybot"
         ]
     },
     "contact": {
         "email": "srijay@techfilmer.com",
         "pgp": "https://pgp.mit.edu/pks/lookup?op=get&search=0xFB5F102237AE870C",
+        "keybase": "techfilmer",
+        "github": "sckasturi",
+        "twitter": "techfilmer",
         "irc": {
-            "nick": "skasturi",
-            "networks": [
-                "freenode"
-            ]
-        },
-        "twitter": "@techfilmer",
-        "github": "@sckasturi",
-        "keybase": "techfilmer"
+            "freenode": "skasturi"
+        }
     },
     "accolades": [
         "Honorable Mention, Startup Weekend D.C. (April, 2014)",
