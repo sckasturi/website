@@ -22,14 +22,14 @@
             "url": "https://github.com/sckasturi/misc/blob/master/RPS.py",
             "preview": "http://labs.codecademy.com/BbK9/2#:workspace"
         },
-        "STRIDE": {
-            "description": "A device that alerts visually impaired users of objects in close proximity that they may not see",
-            "url": "https://github.com/stepwithstride"
-        },
         "status": {
             "description": "A small Python applet that uses the Flask framework to create a web page showing the status of your server",
             "url": "https://github.com/sckasturi/status",
             "preview": "http://cadoth.net:4242"
+        },
+        "STRIDE": {
+            "description": "A device that alerts visually impaired users of objects in close proximity that they may not see",
+            "url": "https://github.com/stepwithstride"
         },
         "_misc": [
             "IdeaVine",
