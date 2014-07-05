@@ -73,5 +73,6 @@
             "node.js",
             "node-irc"
         ]
-    }
+    },
+    "__comment__": "yes, it is intended to look like JSON, got a problem with that?"
 }
