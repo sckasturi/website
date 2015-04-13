@@ -2,12 +2,17 @@
     "name": "Srijay C. Kasturi",
     "age": 14,
     "home": "Reston, Virginia, USA",
+    "resume": "http://tokyoshells.cf/~skasturi/Srijay%20Kasturi%20Resume.pdf"
     "projects": {
         "CCTM": {
             "meaning": "Camera Centering Tripod Mount",
             "description": "A device for centering your camera",
             "video": "https://www.youtube.com/watch?v=9kZKxvEgzWU"
         },
+        "IdeaVine": {
+            "description": "A social network for sharing ideas.",
+            "awards": "Honorable Mention, Startup Weekend D.C."
+        }
         "Nymeria.js": {
             "description": "A simple IRC bot written in node.js using the node-irc framework",
             "url": "https://github.com/sckasturi/nymeria.js"
@@ -16,26 +21,28 @@
             "description": "Python library for Polr, a URL shortener by my friend Cydrobolt",
             "url": "https://pypi.python.org/pypi/polr"
         },
-        "RPS": {
-            "meaning": "Rock-paper-scissors",
-            "description": "Rock-paper-scissors in Python, my first program ever",
-            "url": "https://github.com/sckasturi/misc/blob/master/RPS.py",
-            "preview": "http://labs.codecademy.com/BbK9/2#:workspace"
-        },
+        "Simplyfi": {
+            "description": "A tampermonkey/greasemonkey script that translates idioms in real time on web pages",
+            "awards": [
+                "Judge's Choice Awared, Enabled by Design-athon",
+                "10th Place, VA DECA SLC - Entreprenuership Innovation Plan"
+            ]
+        }
         "status": {
             "description": "A small Python applet that uses the Flask framework to create a web page showing the status of your server",
             "url": "https://github.com/sckasturi/status",
-            "preview": "http://cadoth.net:4242"
         },
         "STRIDE": {
             "description": "A device that alerts visually impaired users of objects in close proximity that they may not see",
-            "url": "https://github.com/stepwithstride"
+            "url": "https://github.com/stepwithstride",
+            "awards": "3rd Place, Discovery Education 3M Young Scientist Challenge"
         },
         "_misc": [
-            "IdeaVine",
             "StarLight",
             "saltlake",
-            "Simplyfi"
+            "nlkickstarter",
+            "RPS",
+            "fb4m"
         ],
         "_forks": [
             "cslbot",
@@ -46,23 +53,14 @@
             "polybot"
         ]
     },
-    "contact": {
-        "email": "srijay@techfilmer.com",
-        "pgp": "https://pgp.mit.edu/pks/lookup?op=get&search=0xFB5F102237AE870C",
-        "keybase": "techfilmer",
-        "github": "sckasturi",
-        "twitter": "techfilmer",
-        "irc": {
-            "freenode": "skasturi"
-        },
-        "skype": "sckasturi",
-        "instagram": "sckasturi"
-    },
     "accolades": [
-        "Judges Choice Awared, Enabled by Design-athon (October, 2014)"
-        "1st Dan Black Belt, Tae Kwon Do (September, 2014)"
-        "Honorable Mention, Startup Weekend D.C. (April, 2014)",
-        "3rd Place, Discovery Education 3M Young Scientist Challenge (October, 2013)",
+        "10th Place, VA DECA SLC - Entreprenuership Innovation Plan (March 2015)",
+        "2nd Place, South Lakes High School Science Fair (February 2015)",
+        "9th Place, Flint Hill Certamen - Level I (January 2015)"
+        "Judges Choice Awared, Enabled by Design-athon (October 2014)",
+        "2nd Dan Black Belt, Tae Kwon Do (September 2014)",
+        "Honorable Mention, Startup Weekend D.C. (April 2014)",
+        "3rd Place, Discovery Education 3M Young Scientist Challenge (October 2013)",
     ],
     "skills": {
         "languages": [
@@ -75,9 +73,24 @@
         "frameworks": [
             "flask",
             "node.js",
-            "node-irc"
+            "node-irc",
+            "beautifulsoup",
+            "tkinter",
+            "tampermonkey/greasemonkey"
         ]
     },
-    "resume": "http://tokyoshells.cf/~skasturi/Srijay%20Kasturi%20Resume.pdf",
-    "__comment__": "yes, it is intended to look like JSON, got a problem with that?"
+    "contact": {
+        "email": "srijay@techfilmer.com",
+        "pgp": "https://pgp.mit.edu/pks/lookup?op=get&search=0xFB5F102237AE870C",
+        "keybase": "techfilmer",
+        "github": "sckasturi",
+        "twitter": "techfilmer",
+        "irc": {
+            "freenode": "skasturi"
+        },
+        "skype": "sckasturi",
+        "instagram": "realslimsrij",
+        "snapchat": "sckasturi"
+    },
+    "__comment__": "yes, it is intended to look like JSON, so no your computer is not broken :P"
 }
