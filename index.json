@@ -12,7 +12,7 @@
         "IdeaVine": {
             "description": "A social network for sharing ideas.",
             "awards": "Honorable Mention, Startup Weekend D.C."
-        }
+        },
         "Nymeria.js": {
             "description": "A simple IRC bot written in node.js using the node-irc framework",
             "url": "https://github.com/sckasturi/nymeria.js"
@@ -27,7 +27,7 @@
                 "Judge's Choice Awared, Enabled by Design-athon",
                 "10th Place, VA DECA SLC - Entreprenuership Innovation Plan"
             ]
-        }
+        },
         "status": {
             "description": "A small Python applet that uses the Flask framework to create a web page showing the status of your server",
             "url": "https://github.com/sckasturi/status",
@@ -54,11 +54,11 @@
         ]
     },
     "accolades": [
-        "1st Place, ISC2 and Cert High School Cyber Security Competition (July 2015)"
-        "1st Place, CMWRC Geeta Chanting Regional Competition (May 2015)"
+        "1st Place, ISC2 and Cert High School Cyber Security Competition (July 2015)",
+        "1st Place, CMWRC Geeta Chanting Regional Competition (May 2015)",
         "10th Place, VA DECA SLC - Entreprenuership Innovation Plan (March 2015)",
         "2nd Place, South Lakes High School Science Fair (February 2015)",
-        "9th Place, Flint Hill Certamen - Level I (January 2015)"
+        "9th Place, Flint Hill Certamen - Level I (January 2015)",
         "Judges Choice Awared, Enabled by Design-athon (October 2014)",
         "2nd Dan Black Belt, Tae Kwon Do (September 2014)",
         "Honorable Mention, Startup Weekend D.C. (April 2014)",
