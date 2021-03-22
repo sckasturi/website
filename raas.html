@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* Create two equal columns that floats next to each other */
+        
+        .videocolumn {
+            float: left;
+            width: 50%;
+            height: 100vh;
+            padding: 100px;
+            overflow: scroll;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+        
+        .pollcolumn {
+            float: left;
+            width: 50%;
+            height: 100vh;
+            padding: 100px;
+
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 600px) {
+            .pollcolumn {
+                width: 100%;
+            }
+            .pollcolumn {
+                width: 100%;
+            }
+        }
+        
+        .container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+        }
+        
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .poll {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1012;
+        }
+
+        .group {
+            border: 2px solid gray;
+            border-radius: 5px;
+            margin: 30px;
+            padding: 20px;
+        }
+    </style>
+    <title>Raas Bracket</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="videocolumn" style="background-color:#fff;">
+            <h2>Newbies</h2>
+<div class="group">
+
+                <h3>Nikhita Kashi</h3>
+
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/sq28rzTxgj4" frameborder="0" allowfullscreen class="video"></iframe>
+                </div>
+
+                <h3>Gautam Narayan</h3>
+
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/SO13NRnF8iE" frameborder="0" allowfullscreen class="video"></iframe>
+                </div>
+
+               
+</div>
+            <h2>Oldies</h2>
+<div class="group">
+
+                <h3>Parth Turakhia</h3>
+
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/FswLeRwGU8I" frameborder="0" allowfullscreen class="video"></iframe>
+                </div>
+
+                <h3>Mira Patel</h3>
+
+                <div class="container">
+                    <iframe src="https://www.youtube.com/embed/HfbWDJmdCHI" frameborder="0" allowfullscreen class="video"></iframe>
+                </div>
+
+               
+</div>
+
+
+
+        </div>
+
+    <div class="videocolumn" style="background-color:#fff;">
+
+        <h3>No voting!</h3>
+      
+           <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8XdvwCGd6ZJYid1ZH2jL4LDYfi_F7hoLF0jBqbISVPj6m5A/viewform?embedded=true" width="640" height="2292" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      --> 
+    </div>
+</body>
+
+</html>
